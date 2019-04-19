@@ -21,7 +21,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://drive.google.com/drive/u/0/folders/1w7Ynxx7uKGIyUjK8C9MEWDrsY28cKqL0)
+[Team Repo](https://drive.google.com/drive/u/0/folders/1w7Ynxx7uKGIyUjK8C9MEWDrsY28cKqL0)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
