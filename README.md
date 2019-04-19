@@ -21,7 +21,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Team Repo](https://drive.google.com/drive/u/0/folders/1w7Ynxx7uKGIyUjK8C9MEWDrsY28cKqL0)
+[Team Repository](https://drive.google.com/drive/u/0/folders/1w7Ynxx7uKGIyUjK8C9MEWDrsY28cKqL0)
+
+Contact Info: gitWeiss at gmail dot com
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
