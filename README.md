@@ -12,8 +12,9 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 - [Weekly Report 3](https://docs.google.com/document/d/1LH7Sttu0OpNScl9lsAlEoQnWp7ZDqMF8h49HlRG_6n4/edit?usp=sharing)
 
 ### Diagram
-![](/img/diagram1.png)
+![](/img/UML.png)
 
+![](/img/Sequence.png)
 
 Contact Info: gitWeiss at gmail dot com
 
