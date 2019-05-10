@@ -16,8 +16,11 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
 ![](/img/Sequence.png)
 
+
 Contact Info: gitWeiss at gmail dot com
 
 [GitHub Repository](https://github.com/weisschoice/TCSS360)
+
+![](/img/merge.gif)
 
 Mission: You've always got time for DIY!
