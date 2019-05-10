@@ -21,7 +21,6 @@ Contact Info: gitWeiss at gmail dot com
 
 [GitHub Repository](https://github.com/weisschoice/TCSS360)
 
-Testing Testing!
 
 ![](/img/merge.gif)
 
