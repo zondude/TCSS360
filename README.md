@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+### Welcome to Weiss Choice
 
-You can use the [editor on GitHub](https://github.com/weisschoice/TCSS360/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Last Updated: 4/19/2019
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
-### Markdown
+### Reports
+- [Weekly Report 1](https://docs.google.com/document/d/1vAGWFiGAKOSYgYsKJ74FUjZMjOtJ_mKQu0alkFLa7Rw/edit?usp=sharing)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Weekly Report 2](https://docs.google.com/document/d/1yaF6vYaqXkgNQSrOFUe3MgNbP6m6a_YV6QVfxC2T6Ms/edit?usp=sharing)
 
-```markdown
-Syntax highlighted code block
+- [Weekly Report 3](https://docs.google.com/document/d/1LH7Sttu0OpNScl9lsAlEoQnWp7ZDqMF8h49HlRG_6n4/edit?usp=sharing)
 
-# Header 1
-## Header 2
-### Header 3
+- [Weekly Report 4](https://docs.google.com/document/d/1hUTV5WDdVGqZ0s3ik9XVQUJRUgkesgf8_SCvyY9wlIU/edit?usp=sharing)
 
-- Bulleted
-- List
+- [Weekly Report 5](https://docs.google.com/document/d/1sRcizDf9fxha86zghte-8BqfSSeo0giJIpzwP-pjwds/edit?usp=sharing)
 
-1. Numbered
-2. List
+### Diagram
+![](/img/UML_new.png)
 
-**Bold** and _Italic_ and `Code` text
+![](/img/Sequence_new.png)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Contact Info: gitWeiss at gmail dot com
 
-### Jekyll Themes
+[GitHub Repository](https://github.com/weisschoice/TCSS360)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/weisschoice/TCSS360/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+![](/img/merge.gif)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Mission: You've always got time for DIY!
