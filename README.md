@@ -19,11 +19,13 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
 - [Weekly Report 7](https://docs.google.com/document/d/1xiiDFwSxP60qfRRIUXZCVgg3Xl16UuFECg4V1PeMTLQ/edit?usp=sharing)
 
-### Diagram
+### Diagrams
 ![](/img/UML_new.png)
 
 ![](/img/Sequence_new.png)
 
+### Documents
+- [Data Iteration](https://docs.google.com/document/d/1NDqPITFNAr8lgCFhOfkdNT-zrHUJTx1055Dd4HKYHI0/edit?usp=sharing)
 
 Contact Info: gitWeiss at gmail dot com
 
