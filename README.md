@@ -6,6 +6,7 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
 ### Follow Link
 [Check-In 4](https://github.com/weisschoice/TCSS360/tree/master/DIWeiss)
+[Explanation](https://github.com/weisschoice/TCSS360/blob/master/projectIntro.txt)
 
 ### Reports
 - [Weekly Report 1](https://docs.google.com/document/d/1vAGWFiGAKOSYgYsKJ74FUjZMjOtJ_mKQu0alkFLa7Rw/edit?usp=sharing)
