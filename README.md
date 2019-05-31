@@ -4,8 +4,8 @@ Last Updated: 4/19/2019
 
 Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
-## Follow Link
-[Check-In](https://github.com/weisschoice/TCSS360/tree/master/DIWeiss)
+### Follow Link
+[Check-In 4](https://github.com/weisschoice/TCSS360/tree/master/DIWeiss)
 
 ### Reports
 - [Weekly Report 1](https://docs.google.com/document/d/1vAGWFiGAKOSYgYsKJ74FUjZMjOtJ_mKQu0alkFLa7Rw/edit?usp=sharing)
