@@ -23,6 +23,8 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
 - [Weekly Report 7](https://docs.google.com/document/d/1xiiDFwSxP60qfRRIUXZCVgg3Xl16UuFECg4V1PeMTLQ/edit?usp=sharing)
 
+- [Weekly Report 8](https://drive.google.com/file/d/1kRdbEHE9NcPnAcKUVDlIREcl949PBBHP/view?usp=sharing)
+
 ### Diagrams
 ![](/img/UML_new.png)
 
