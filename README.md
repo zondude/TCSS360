@@ -1,12 +1,12 @@
 ### Welcome to Weiss Choice
 
-Last Updated: 4/19/2019
+Last Updated: 6/13/2019
 
 Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
-### Our source code can be found here
+### Here are some quick links
 - [Source Code](https://github.com/weisschoice/TCSS360/tree/master/DIWeiss/src)
-- [Explanation](https://github.com/weisschoice/TCSS360/blob/master/projectIntro.txt)
+- [Presentation Slide](https://docs.google.com/presentation/d/1y9eCSk-H6ffEMPfwLHUa8bt_zNu17zYyH_Nl2GLA4Rg/edit?usp=sharing)
 
 ### Reports
 - [Weekly Report 1](https://docs.google.com/document/d/1vAGWFiGAKOSYgYsKJ74FUjZMjOtJ_mKQu0alkFLa7Rw/edit?usp=sharing)
@@ -29,11 +29,6 @@ Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 ![](/img/UML_new.png)
 
 ![](/img/Sequence_new.png)
-
-### Documents
-- [Data Iteration](https://docs.google.com/document/d/1NDqPITFNAr8lgCFhOfkdNT-zrHUJTx1055Dd4HKYHI0/edit?usp=sharing)
-
-- [Presentation Slide](https://docs.google.com/presentation/d/1y9eCSk-H6ffEMPfwLHUa8bt_zNu17zYyH_Nl2GLA4Rg/edit?usp=sharing)
 
 Contact Info: gitWeiss at gmail dot com
 
