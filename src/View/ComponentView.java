@@ -14,13 +14,19 @@ import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 
+/**
+ * A class to make the component view on the GUI.
+ * @author Abraham Lee, Jonathan Kim
+ *
+ */
 public class ComponentView extends JPanel {
-	/**
-	 * 
-	 */
+	/** Auto-generated UID */
 	private static final long serialVersionUID = 1L;
+	/** Initializing a text field object. */
 	private JTextField textField;
+	/** Initializing a list of field view object. */
 	private List<FieldView> fieldViewList;
+	/** Initializing list of component. object. */
 	private List<java.awt.Component> myComp = new ArrayList<>();
 
 	/**
@@ -83,10 +89,18 @@ public class ComponentView extends JPanel {
 
 	}
 	
+	/**
+	 * a method to get the name for the text field.
+	 * @return the text name.
+	 */
 	public String getName() {
 		return textField.getText();
 	}
 	
+	/**
+	 * a method to get the list of text field.
+	 * @return the textfield list.
+	 */
 	public List<FieldView> getFieldViewList() {
 		return fieldViewList;
 	}

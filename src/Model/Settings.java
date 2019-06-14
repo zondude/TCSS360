@@ -6,6 +6,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * A class that is for the settings for the program itself.
+ * @author Patrick Lauer, Joel Johnson
+ *
+ */
 public class Settings {
 	public String email = "example123@website.com";
 	public String firstName = "John Doe";
@@ -14,6 +19,9 @@ public class Settings {
 
 	}
 
+	/**
+	 * Method to print the options during testing.
+	 */
 	public void printOptions()
 	{
 		System.out.println("Would you like to:");
@@ -26,6 +34,10 @@ public class Settings {
 		System.out.println("[R]eturn to Home View");
 	}
 
+	/**
+	 * A method to get user inputs and do something with it.
+	 * @param sc the scanner.
+	 */
 	public void input(Scanner[] sc) {
 		char x = ' ';
 		do {	
@@ -55,12 +67,19 @@ public class Settings {
 		}	while (x != 'R');
 	}
 
+	/**
+	 * Print method for the name and the email.
+	 */
 	public void print()
 	{
 		System.out.println("\t\tName: " + firstName);
 		System.out.println("\t\tEmail: " + email);
 	}
 
+	/**
+	 * Method to set the name.
+	 * @param sc the scanner.
+	 */
 	public void setName(Scanner[] sc)	
 	{
 		System.out.print("Enter new name: ");
@@ -68,6 +87,10 @@ public class Settings {
 		firstName = theName;
 	}
 
+	/**
+	 * Method to set the email
+	 * @param sc the scanner.
+	 */
 	public void setEmail(Scanner[] sc) 	
 	{
 		boolean acceptable = false;
@@ -85,6 +108,9 @@ public class Settings {
 		
 	}
 
+	/**
+	 * Method to delete a profile.
+	 */
 	public void deleteProfile() 
 	{
 		email = "example123@website.com";
@@ -93,6 +119,9 @@ public class Settings {
 		print();
 	}
 
+	/**
+	 * Method to export the file.
+	 */
 	public void Export()
 	{
 		try {
@@ -118,6 +147,10 @@ public class Settings {
 			}
 		}
 	}
+	
+	/**
+	 * Method to import the file.
+	 */
 	public void Import()
 	{
 		try {

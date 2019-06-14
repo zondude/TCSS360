@@ -19,30 +19,28 @@ import javax.swing.JScrollPane;
 import Model.Project;
 
 /**
- * Runs the
+ * This class is a main to run the GUI.
  * 
  * @author Abraham & Jonathan
  *
  */
 public class MainGUI extends JFrame implements PropertyChangeListener {
 
-    /**
-	 * 
-	 */
+	/** Auto-generated UID */
 	private static final long serialVersionUID = 1L;
 
 
 	/** File opener to browse directory. */
     private final JFileChooser myFileChooser;
-  
+    /** Initializing a project object. */
     private Project project;
-    
+    /** Initializing a project view object. */
     private ProjectView projectView;
-    
+    /** Initializing a project scroll object. */
     private JScrollPane projectScroll;
-    
+    /** Initializing a File object. */
     private File selectedFile;
-    
+    /** Initializing a property change object. */
     private PropertyChangeSupport myPcs;
 
 	/**
@@ -54,7 +52,7 @@ public class MainGUI extends JFrame implements PropertyChangeListener {
 	}
 
 	/**
-	 * Initialize the contents of the frame.
+	 * Initialize the contents of the frame with menu bar and buttons.
 	 */
 	private void initialize() {
 		projectView = null;
@@ -131,6 +129,9 @@ public class MainGUI extends JFrame implements PropertyChangeListener {
 		add(new CalculatorView(), BorderLayout.SOUTH);
 	}
 	
+	/**
+	 * Method to save the project.
+	 */
 	public void saveProject() {
 		String source = projectView.getName() + "\n";
 		for (ComponentView componentView : projectView.getCompViewList()) {
@@ -188,6 +189,10 @@ public class MainGUI extends JFrame implements PropertyChangeListener {
         return temp;
     }
     
+    /**
+     * Method to open the project from a text file.
+     * @param theProjectView the project view object.
+     */
     private void openNewProject(ProjectView theProjectView) {
     	if (projectView != null && projectScroll != null) {
 			remove(projectView);
@@ -217,6 +222,9 @@ public class MainGUI extends JFrame implements PropertyChangeListener {
 		 }
 	}
 	
+	/**
+	 * Method to delete the project to start a new one.
+	 */
 	public void deleteProject() {
 		removeAll();
     	revalidate();
