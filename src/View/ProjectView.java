@@ -15,17 +15,28 @@ import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 
+/**
+ * View that handles the logic for a project GUI.
+ * 
+ * @author Abraham Lee, Jonathan Kim
+ *
+ */
+
 public class ProjectView extends JPanel {
 	
 	/** Auto-generated UID */
 	private static final long serialVersionUID = 1L;
+	/** Textfield for the project **/
 	private JTextField textField;
+	/** List of componentview for the project view **/
 	private List<ComponentView> compViewList;
+	/** list of components for the project **/
 	private List<java.awt.Component> myComp = new ArrayList<>();
+	/** an object of mainGUI for the project **/
 	private MainGUI mainGUI;
 	
 	/**
-	 * Create the panel.
+	 * Create the panel as well as handling the look of the project view.
 	 */
 	public ProjectView(Project project) {
 		mainGUI = new MainGUI();
@@ -98,10 +109,17 @@ public class ProjectView extends JPanel {
 
 	}
 	
+	/**
+	 * Get the name of the project.
+	 */
 	public String getName() {
 		return textField.getText();
 	}
 	
+	/**
+	 * Method to get the Component View List
+	 * @return a list of component views.
+	 */
 	public List<ComponentView> getCompViewList() {
 		return compViewList;
 	}

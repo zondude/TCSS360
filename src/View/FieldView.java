@@ -10,12 +10,13 @@ import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 
 public class FieldView extends JPanel {
-	/**
-	 * 
-	 */
+	/** Auto-generated UID */
 	private static final long serialVersionUID = 1L;
+	/** Initializing a text field name object. */
 	private JTextField name;
+	/** Initializing a data text field object. */
 	private JTextField data;
+	/** Initializing a unit text field object. */
 	private JTextField unit;
 
 	/**
@@ -52,14 +53,26 @@ public class FieldView extends JPanel {
 
 	}
 	
+	/**
+	 * a method to get the name for the text field.
+	 * @return the text name.
+	 */
 	public String getName() {
 		return name.getText();
 	}
 	
+	/**
+	 * a method to get the data for the text field.
+	 * @return the data name.
+	 */
 	public Double getData() {
 		return Double.parseDouble(data.getText());
 	}
 	
+	/**
+	 * a method to get the unit name for the text field.
+	 * @return the unit name.
+	 */
 	public String getUnit() {
 		return unit.getText();
 	}

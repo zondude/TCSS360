@@ -3,16 +3,31 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * A class that are the fields of the components.
+ * @author Abraham Lee, Jonathan Kim, Joel Johnson, Patrick Lauer
+ *
+ */
 public class Field implements AppScheme {
+	/** Initializing a name object. */
 	public String myName;
+	/** Initializing a data object. */
 	public double myData;
+	/** Initializing a unit object. */
 	public String myUnit;
 //	public static int count = 0;
 
+	/**
+	 * Constructor for field.
+	 */
 	public Field() {
 		this(new Scanner(""));
 	}
 	
+	/**
+	 * Constructor for field that takes in a scanner.
+	 * @param sc the scanner.
+	 */
 	public Field(Scanner sc)	{
 		myName = "";
 		myData = 0.0;
@@ -21,14 +36,26 @@ public class Field implements AppScheme {
 //		count++;
 	}
 	
+	/**
+	 * Method that gets the name.
+	 * @return the name.
+	 */
 	public String getName() {
 		return myName;
 	}
 	
+	/**
+	 * Method that gets the data.
+	 * @return the data.
+	 */
 	public double getData() {
 		return myData;
 	}
 	
+	/**
+	 * Method that returns the unit.
+	 * @return the unit.
+	 */
 	public String getUnit() {
 		return myUnit;
 	}
@@ -71,6 +98,9 @@ public class Field implements AppScheme {
 //	}
 
 
+	/**
+	 * Method that prints the fields.
+	 */
 	public void print()
 	{
 		System.out.println("\t\tField: \t" + myName);
@@ -79,6 +109,10 @@ public class Field implements AppScheme {
 
 	}
 
+	/**
+	 * Method that exports the file.
+	 * @param newFile the file.
+	 */
 	public void export(FileWriter[] newFile)	{
 		try {
 			newFile[0].write("F " + myName + "\nF " + myData+ "\nF " + myUnit + "\n");
@@ -87,37 +121,65 @@ public class Field implements AppScheme {
 		}
 	}
 
+	/**
+	 * Method that sets the name.
+	 * @param sc the scanner.
+	 */
 	public void setName(Scanner[] sc)	{
 		prompt(1);
 		String theName = sc[0].nextLine();
 		myName = theName;
 	}
+	/**
+	 * Method that sets the name.
+	 * @param theName the name.
+	 */
 	public void setName(String theName)
 	{
 		myName = theName;
 	}
 
+	/**
+	 * Method that sets the data.
+	 * @param sc the scanner.
+	 */
 	public void setData(Scanner[] sc)	{
 		prompt(0);
 		myData = sc[0].nextDouble();
 		sc[0].nextLine();
 	}
 	
+	/**
+	 * Method that sets the data.
+	 * @param theData the data.
+	 */
 	public void setData(Double theData)
 	{
 		myData = theData;
 	}
 
+	/**
+	 * Method that sets the unit
+	 * @param sc the scanner.
+	 */
 	public void setUnit(Scanner[] sc)	{
 		prompt(2);
 		myUnit = sc[0].nextLine();
 	}
 	
+	/**
+	 * Method that sets the unit.
+	 * @param theUnit the unit of measurement.
+	 */
 	public void setUnit(String theUnit)
 	{
 		myUnit = theUnit;
 	}
 
+	/** DEPRICATED
+	 * Method to pull up the prompt.
+	 * @param request the request from the user.
+	 */
 	public void prompt(int request) {
 		System.out.print("Enter new ");
 		switch(request)	{
@@ -132,6 +194,10 @@ public class Field implements AppScheme {
 		}
 	}
 	
+	/** DEPRICATED
+	 * Method to import the field.
+	 * @param sc the scanner.
+	 */
 	public void importField(Scanner sc) {
 		if (sc.hasNextLine()) {
 			Scanner fieldSc = sc.useDelimiter(", ");

@@ -3,16 +3,31 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * A class project that is the project itself that the DIY will use.
+ * @author Joel Johnson, Patrick Lauer
+ *
+ */
 public class Project implements AppScheme {
 
+	/** Initializing a name object. */
 	private String myName;
+	/** Initializing a list component object. */
 	private List<Component> components; 
+	/** Initializing a setting object. */
 	public static Settings mySettings = null;
 	
+	/**
+	 * Constructor for the project.
+	 */
 	public Project() {
 		this(new Scanner(""));
 	}
 
+	/**
+	 * Constructor for project.
+	 * @param sc the scanner.
+	 */
 	public Project(Scanner sc)
 	{
 		myName = "";
@@ -21,6 +36,10 @@ public class Project implements AppScheme {
 		importProject(sc);
 	}
 	
+	/**
+	 * Method to import the project.
+	 * @param sc the scanner.
+	 */
 	private void importProject(Scanner sc) {
 		if (sc.hasNextLine()) {
 			myName = sc.nextLine();
@@ -32,10 +51,18 @@ public class Project implements AppScheme {
 		}
 	}
 	
+	/**
+	 * Method to get the name.
+	 * @return the name.
+	 */
 	public String getName() {
 		return myName;
 	}
 	
+	/**
+	 * Method to get the list of components.
+	 * @return List of components.
+	 */
 	public List<Component> getComponents() {
 		return components;
 	}
@@ -115,6 +142,9 @@ public class Project implements AppScheme {
 //		return this;
 //	}
 
+	/**
+	 * Method to print the project name.
+	 */
 	public void print()
 	{
 		System.out.println("Project Name: " + myName);
@@ -123,6 +153,10 @@ public class Project implements AppScheme {
 			c.print();
 		}
 	}
+	
+	/**
+	 * A method to get a list of components.
+	 */
 	public void list()
 	{
 		int index = 0;
@@ -264,6 +298,11 @@ public class Project implements AppScheme {
 //		return project;
 //	}
 //	
+	
+	/**
+	 * Method to go the settings.
+	 * @param sc the scanner.
+	 */
 	public void goToSettings(Scanner[] sc)	
 	{
 		mySettings.input(sc);

@@ -3,6 +3,11 @@ import java.awt.EventQueue;
 
 import View.MainGUI;
 
+/**
+ * Class to run the application.
+ * @author Abraham Lee, Jonathan Kim, Patrick Lauer, Joel Johnson
+ *
+ */
 public class Application {
 	
 	/**

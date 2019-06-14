@@ -12,16 +12,16 @@ import javax.swing.event.ListSelectionListener;
  * Side view that displays all projects and allows us to open.
  * Only files in the 'projects' folder are shown.
  * 
- * @author Abraham
+ * @author Abraham Lee, Jonathan Kim
  *
  */
 public class FileList extends JList {
 	
 	/** Auto-generated UID */
 	private static final long serialVersionUID = 1L;
-	
+	/** Initializing a list of string file names. */
 	private List<String> fileNames;
-	
+	/** Initializing a property change support object. */
 	private PropertyChangeSupport myPcs;
 	
 	/**

@@ -3,7 +3,7 @@ package Model;
 /**
  * Interface defining what parts of a project should contain.
  *
- * @author Joel
+ * @author Joel Johnson.
  *
  */
 interface AppScheme {
