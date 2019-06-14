@@ -1,0 +1,5 @@
+r/HydroHomies
+C Aqua
+F Water, 15.25, Dollars
+F Ice, 0.05, Dollars
+F Protein, 19.99, Dollars

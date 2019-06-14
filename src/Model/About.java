@@ -1,3 +1,4 @@
+package Model;
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.io.File;
@@ -20,7 +21,11 @@ import javax.swing.JLabel;
  */
 public class About extends JFrame {
 
-    private JPanel contentPane;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
 
     /**
      * Launch the application.
@@ -71,6 +76,7 @@ public class About extends JFrame {
         File file = new File("txt/version.txt");
         Scanner sc = new Scanner(file);
         double version = Double.parseDouble(sc.nextLine());
+        sc.close();
         return version;
     }
 }
