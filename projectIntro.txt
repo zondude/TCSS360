@@ -1,0 +1,24 @@
+Identifier: US01
+User Story:
+As a user of the app I would like to export the data either digitally or physically so that I can sync my phone or tablet to the same project.
+Project class has a method to export information as a text file.
+
+Identifier: US06
+User Story:
+As a user of the app I would like to delete any of my projects at any time, so that I can free up space whenever I need so.
+Project class allows to delete existing files.
+
+Identifier: US13
+User Story:
+As a user, I want to update and change parts of an existing project, because I would like to be able to fix incorrect inputs or try out different configurations.
+Field, Component, and Project classes can be all edited.
+
+Identifier: US10
+User Story:
+As a user of the app I would like to import an existing project so that I may continue my work
+Project class has an import() method that can take in a file.
+
+Identifier: EXTRA
+User Story:
+As a user of the app I would like to change to settings so that I can personalize my use.
+Settings class allows for import and export of new settings to push for app.

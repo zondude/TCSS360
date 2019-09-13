@@ -1,0 +1,13 @@
+BigTest
+C Tools
+F Hammer, 15.25, Dollars
+F Saw, 20.99, Dollars
+F Fumble, 19.99, Dollars
+F none, 0.0, none
+F none, 0.0, none
+C Supplies
+F Paint, 10.0, Gallons
+F PaintCost, 3.49, Dollars/Gallon
+C Nonsense
+F Geese, 100.0, Gaggles
+F none, 0.0, none

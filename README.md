@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+### Welcome to Weiss Choice
 
-You can use the [editor on GitHub](https://github.com/weisschoice/TCSS360/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Last Updated: 6/13/2019
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Abraham Lee, Joel Johnson, Jonathan Kim, Patrick Lauer
 
-### Markdown
+### Here are some quick links
+- [Source Code](https://github.com/weisschoice/TCSS360/tree/master/DIWeiss/src)
+- [Presentation Slide](https://docs.google.com/presentation/d/1y9eCSk-H6ffEMPfwLHUa8bt_zNu17zYyH_Nl2GLA4Rg/edit?usp=sharing)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Reports
+- [Weekly Report 1](https://docs.google.com/document/d/1vAGWFiGAKOSYgYsKJ74FUjZMjOtJ_mKQu0alkFLa7Rw/edit?usp=sharing)
 
-```markdown
-Syntax highlighted code block
+- [Weekly Report 2](https://docs.google.com/document/d/1yaF6vYaqXkgNQSrOFUe3MgNbP6m6a_YV6QVfxC2T6Ms/edit?usp=sharing)
 
-# Header 1
-## Header 2
-### Header 3
+- [Weekly Report 3](https://docs.google.com/document/d/1LH7Sttu0OpNScl9lsAlEoQnWp7ZDqMF8h49HlRG_6n4/edit?usp=sharing)
 
-- Bulleted
-- List
+- [Weekly Report 4](https://docs.google.com/document/d/1hUTV5WDdVGqZ0s3ik9XVQUJRUgkesgf8_SCvyY9wlIU/edit?usp=sharing)
 
-1. Numbered
-2. List
+- [Weekly Report 5](https://docs.google.com/document/d/1sRcizDf9fxha86zghte-8BqfSSeo0giJIpzwP-pjwds/edit?usp=sharing)
 
-**Bold** and _Italic_ and `Code` text
+- [Weekly Report 6](https://docs.google.com/document/d/1HTXX_nXL-VrSY5l5I6PQslPTUbq3Jj00hU_htCZah1E/edit?usp=sharing)
 
-[Link](url) and ![Image](src)
-```
+- [Weekly Report 7](https://docs.google.com/document/d/1xiiDFwSxP60qfRRIUXZCVgg3Xl16UuFECg4V1PeMTLQ/edit?usp=sharing)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [Weekly Report 8](https://drive.google.com/file/d/1kRdbEHE9NcPnAcKUVDlIREcl949PBBHP/view?usp=sharing)
 
-### Jekyll Themes
+### Diagrams
+![](/img/UML_new.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/weisschoice/TCSS360/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![](/img/Sequence_new.png)
 
-### Support or Contact
+Contact Info: gitWeiss at gmail dot com
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[GitHub Repository](https://github.com/weisschoice/TCSS360)
+
+
+![](/img/merge.gif)
+
+Mission: You've always got time for DIY!
